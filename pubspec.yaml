@@ -1,0 +1,27 @@
+name: booking_hotel_app1
+description: A new Flutter project.
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.6.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  cached_network_image: ^3.4.1
+  flutter_svg: 2.0.10+1 # Обновляем до последней версии
+  carousel_slider_plus: ^7.1.0
+  smooth_page_indicator: ^1.2.0+3
+  connectivity_plus: ^6.1.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/
+    - assets/images/
