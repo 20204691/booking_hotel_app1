@@ -1,4 +1,4 @@
-import 'package:booking_hotel_app1/core/utils/size_utils.dart';
+
 import 'package:flutter/material.dart';
 import '../core/app_export.dart';
 
@@ -57,7 +57,9 @@ class ThemeHelper {
       dividerTheme: DividerThemeData(
         thickness: 1,
         space: 1,
-        color: colorScheme.onPrimaryContainer.withOpacity(0.15),
+        color: colorScheme.onPrimaryContainer.withValues(
+            alpha: 0.15,
+        ),
       ),
     );
   }

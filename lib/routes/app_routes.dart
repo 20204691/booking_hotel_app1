@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
-import '../presentation/app_navigation_screen/app_navigation_screen.dart';
-import '../presentation/k0_screen/k0_screen.dart';
-import '../presentation/k1_screen/k1_screen.dart';
-import '../presentation/k2_screen/k2_screen.dart';
-import '../presentation/k3_screen/k3_screen.dart';
+import '../ui/app_navigation_screen/app_navigation_screen.dart';
+import '../ui/k0_screen/k0_screen.dart';
+import '../ui/k1_screen/k1_screen.dart';
+import '../ui/k2_screen/k2_screen.dart';
+import '../ui/k3_screen/k3_screen.dart';
 
 class AppRoutes {
   static const String k0Screen = '/k0_screen';
