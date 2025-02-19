@@ -1,5 +1,3 @@
-import 'package:booking_hotel_app1/core/utils/size_utils.dart';
-import 'package:booking_hotel_app1/theme/theme_helper.dart';
 import 'package:flutter/material.dart';
 import '../core/app_export.dart';
 

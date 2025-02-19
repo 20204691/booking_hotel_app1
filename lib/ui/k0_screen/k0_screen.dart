@@ -2,24 +2,29 @@ import 'package:flutter/material.dart';
 import 'package:carousel_slider_plus/carousel_slider_plus.dart';
 import 'package:smooth_page_indicator/smooth_page_indicator.dart';
 import 'package:booking_hotel_app1/core/app_export.dart';
-import '../../theme/custom_button_style.dart';
+import 'package:booking_hotel_app1/theme/custom_button_style.dart';
 import '../../widgets/app_bar/appbar_title.dart';
 import '../../widgets/app_bar/custom_app_bar.dart';
 import '../../widgets/custom_elevated_button.dart';
-import 'widgets/chipiew3_item_widget.dart';
+import 'widgets/chipview3_item_widget.dart';
 import 'widgets/slider_item_widget.dart';
 
 
 
 
 
-class K0Screen extends StatelessWidget {
+class K0Screen extends StatefulWidget {
   K0Screen ({Key? key})
       :super(
           key: key,
         );
-  int sliderIndex = 1;
 
+  @override
+  State<K0Screen> createState() => _K0ScreenState();
+}
+
+class _K0ScreenState extends State<K0Screen> {
+  int sliderIndex = 1;
 
   @override
   Widget build(BuildContext context) {
@@ -292,8 +297,6 @@ class K0Screen extends StatelessWidget {
     );
   }
 
-
-
   /// Section Widget
   Widget _buildBottomNavigation(BuildContext context) {
     return Container(
@@ -363,8 +366,6 @@ class K0Screen extends StatelessWidget {
       ],
     );
   }
-
-
 }
 
 

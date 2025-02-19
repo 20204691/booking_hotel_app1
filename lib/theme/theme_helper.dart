@@ -44,7 +44,7 @@ class ThemeHelper {
         style: ElevatedButton.styleFrom(
           backgroundColor: colorScheme.primary,
           shape: RoundedRectangleBorder(
-            borderRadius: BorderRadius.circular(14.0), // заменено с 14.h на стандартное значение
+            borderRadius: BorderRadius.circular(14.0),
           ),
           elevation: 0,
           visualDensity: const VisualDensity(
